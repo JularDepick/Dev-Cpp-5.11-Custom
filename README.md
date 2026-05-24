@@ -35,3 +35,36 @@
 ## 编译器资源包来源
 - https://github.com/jmeubank/tdm-gcc/releases/
 - https://sourceforge.net/projects/tdm-gcc/files/
+
+### 携带的第三方库
+- EasyX图形化
+    - 下载源：https://easyx.cn
+    - 添加的文件：
+        - ./include/easyx.h
+        - ./include/graphics.h
+        - ./lib/libeasyx.a
+        - ./lib/libeasyxw.a
+    - 链接参数：
+        - -leasyx -lgdi32 -luuid
+    - 状态：可用
+- JSON解析操作库
+    - 下载源：https://github.com/nlohmann/json/blob/develop/single_include/nlohmann/json.hpp
+    - 添加的文件：
+        - ./include/json.hpp
+    - 编译参数：
+        - -std=c++11(及以上)
+    - 状态：可用
+- ini解析操作库
+    - 下载源：https://github.com/benhoyt/inih/blob/master/ini.h
+    - 添加的文件：
+        - ./include/ini.h
+    - 编译参数：
+        - -std=c++11(及以上)
+    - 状态：可用
+- CLI模板库
+    - 下载源：https://github.com/CLIUtils/CLI11/releases/
+    - 添加的文件：
+        - ./include/CLI11.hpp
+    - 编译参数：
+        - -std=c++11
+    - 状态：可用
