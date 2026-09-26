@@ -68,3 +68,12 @@
     - 编译参数：
         - -std=c++11
     - 状态：可用
+- brynet网络库
+    - 下载源：
+    - 添加的文件：
+        - ./include/brynet/**/*
+    - 编译参数：
+        - -std=c++11(及以上)
+    - 链接参数：
+    - -lws2_32 -lpthread -lssl -lcrypto
+
