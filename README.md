@@ -69,7 +69,7 @@
         - -std=c++11
     - 状态：可用
 - brynet网络库
-    - 下载源：
+    - 下载源：https://github.com/IronsDu/brynet/
     - 添加的文件：
         - ./include/brynet/**/*
     - 编译参数：
